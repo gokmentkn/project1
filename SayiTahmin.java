@@ -15,9 +15,9 @@ public class SayiTahmin {
         tahmin = input.nextInt();
 
         if (tahmin == tutulanSayi) {
-            System.out.println("Tebrikler! Doğru bildin 🎉");
+            System.out.println("Tebrikler! Doğru bildin ");
         } else {
-            System.out.println("Yanlış tahmin 😢");
+            System.out.println("Yanlış tahmin ");
             System.out.println("Tutulan sayı: " + tutulanSayi);
         }
     }
